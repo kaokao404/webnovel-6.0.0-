@@ -1,4 +1,4 @@
-# Webnovel 6.0 — AI 辅助网文创作工作流
+# Webnovel Writer — AI 辅助网文创作工作流（基于 6.0.0 优化版）
 
 [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](./LICENSE)
 
@@ -6,7 +6,7 @@
 
 > **核心理念**：用结构化约束释放创作自由，让 AI 成为可靠的写作搭档而非替代品。
 
-> 🔄 **版本演进**：本项目基于 [lingfengQAQ/webnovel-writer](https://github.com/lingfengQAQ/webnovel-writer) 的 Skill 架构进行 v6.0.0 深度迭代优化，在审查机制与写作适配层面进行了重大升级。
+> 🔄 **版本说明**：本项目基于 [lingfengQAQ/webnovel-writer](https://github.com/lingfengQAQ/webnovel-writer) **Skill 6.0.0 版本**进行优化迭代，在审查机制与写作适配层面进行了深度升级。
 
 ---
 
@@ -121,11 +121,11 @@ webnovel-6.0.0/
 
 ---
 
-## 🆕 v6.0.0 核心改进（相比上游版本）
+## 🆕 核心优化（相比上游 6.0.0）
 
 ### 1. 审查维度全面独立化
 
-上游版本的审查采用单一 Agent 综合评估，v6.0.0 将每个审查维度拆分为**独立的专业 Agent**：
+上游 6.0.0 版本的审查采用单一 Agent 综合评估，本版本将每个审查维度拆分为**独立的专业 Agent**：
 
 | 审查维度 | 职责 |
 |---------|------|
@@ -169,9 +169,9 @@ webnovel-6.0.0/
 
 ## 🙏 致谢
 
-本项目基于 [lingfengQAQ/webnovel-writer](https://github.com/lingfengQAQ/webnovel-writer) 的 Skill 架构进行迭代开发，感谢上游项目提供的优秀基础框架。
+本项目基于 [lingfengQAQ/webnovel-writer](https://github.com/lingfengQAQ/webnovel-writer) **Skill 6.0.0 版本**进行迭代开发，感谢上游项目提供的优秀基础框架。
 
-v6.0.0 版本在以下方面进行了深度优化：
+本优化版在以下方面进行了深度升级：
 - 审查机制从单 Agent 综合评估升级为**多 Agent 独立审查**
 - 新增**去 AI 化专项审查维度**
 - 引入**长篇/短篇自适应写作策略**（知乎短篇提示词专门迭代优化）
